@@ -1,0 +1,51 @@
+.glitch-effect {
+    width: 100%;
+    display: block;
+}
+
+.glitch-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.glitch-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* First layer */
+.glitch-thumb.first {
+    z-index: 1;
+    transform: translateX(50%) scaleX(2);
+    opacity: 0;
+    filter: blur(10px);
+}
+
+/* Second (normal) layer */
+.glitch-thumb.second {
+    z-index: 2;
+}
+
+/* Hover effect */
+.glitch-effect:hover .glitch-thumb.first {
+    transform: translateX(0) scaleX(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.glitch-effect:hover .glitch-thumb.second {
+    transform: translateX(-50%) scaleX(2);
+    opacity: 0;
+    filter: blur(10px);
+}
+.line-clamp-1{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
