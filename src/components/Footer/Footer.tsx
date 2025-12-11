@@ -11,7 +11,7 @@ export default function Footer() {
         { Icon: Twitter, url: 'https://x.com/ft_digicomputer' },
         { Icon: Instagram, url: 'https://www.instagram.com/ft_digital_computer/' },
         { Icon: Linkedin, url: 'https://www.linkedin.com/in/ft-digital-computer' },
-        { Icon: Youtube, url: 'www.youtube.com/@ft_digital_computer' },
+        { Icon: Youtube, url: 'https://youtube.com/@ft_digital_computer?si=rhii0wVMm9kzMNS7' },
     ];
     return (
         <footer className="bg-black text-white py-10 section-pt px-8 md:px-52">
