@@ -123,7 +123,7 @@ const Products: React.FC = () => {
                               );
                             })}
                           </div>
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-1 text-xs">
                             <span className="span text-s-medium">Online</span>
                             <Activity size={20} className="text-w-neutral-4" />
                           </div>

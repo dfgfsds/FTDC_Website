@@ -4,7 +4,7 @@ import { useSidebar } from "../context/SidebarContext";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import { User, LogOut } from "lucide-react";
-import userImage from "../../assets/img/user32.png";
+    import userImage from "../../assets/img/user32.png";
 import { useCart } from "../../context/CartContext";
 import { useState, useEffect } from "react";
 import PCIcon from "../../assets/img/PC.png"
@@ -56,7 +56,7 @@ function Header(props: Props) {
     return (
         <header id="header" className="fixed w-full z-[999]">
             <div className="mx-auto relative">
-                <div id="header-nav" className="w-full px-24p bg-b-neutral-3 relative">
+                <div id="header-nav" className="w-full px-24 bg-b-neutral-3 relative">
                     <div className="flex items-center justify-between gap-x-2 mx-auto py-20p">
                         <nav className="relative xl:grid xl:grid-cols-12 flex justify-between items-center gap-24p text-semibold w-full">
                             <div className="3xl:col-span-6 xl:col-span-5 flex items-center 3xl:gap-x-10 gap-x-5">

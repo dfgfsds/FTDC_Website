@@ -1,4 +1,4 @@
-import { useCategoryContext } from "../../context/CategotyContext";
+import { useCategoryContext } from "../../context/CategotyContext"; 
 
 interface Props { }
 import cat1 from "../../assets/img/cat/catImg1.jpg";

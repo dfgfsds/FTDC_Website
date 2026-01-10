@@ -21,7 +21,7 @@ const Categories: React.FC = () => {
     const navigate = useNavigate()
 
     return (
-        <section className="section-pt px-8 md:px-32 z-40">
+        <section className="section-pt px-8 md:px-32 mt-10 z-40">
             <div className="relative pt-[30px]">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                     <h2 className="heading-2 text-2xl md:text-4xl text-split-left font-squares mb-2">Our Categories</h2>
