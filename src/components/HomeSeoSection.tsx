@@ -75,9 +75,9 @@ export default function HomeSeoSection() {
                         </p>
 
                         {/* CUSTOM PC */}
-                        <h3 className="text-2xl font-bold text-gray-50">
-                            Why Buy From Us
-                        </h3>
+                        <h1 className="text-2xl font-bold text-gray-50">
+                            Gaming PC Shop in Chennai – Custom Gaming PCs Built for Performance
+                        </h1>
                         <p>Choosing the right gaming computer store makes a huge difference in performance, lifespan, and peace of mind. Here’s why gamers trust us:</p>
                         <h4 className="text-xl font-bold text-gray-50">
                             Expert Configuration, Not Guesswork
