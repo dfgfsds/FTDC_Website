@@ -57,17 +57,17 @@ function Banner() {
                                     />
                                     <div className="absolute inset-0 z-[2] mx-80p 3xl:pt-[125px] xxl:pt-28 xl:pt-25 md:pt-12 pt-8">
                                         <div className="max-w-[790px]">
-                                            <h1
+                                            <h2
                                                 className="font-squares hidden md:block display-120 text-3xl md:text-6xl lg:text-8xl stroked-text-1 line-clamp-2 mb-2 "
                                                 data-text={slide.title}
                                             >
                                                 {slide.title}
-                                            </h1>
-                                            <h1
+                                            </h2>
+                                            <h2
                                                 className="font-squares md:hidden display-120 text-3xl md:text-6xl lg:text-7xl  line-clamp-2 mb-2 "
                                             >
                                                 {slide.title}
-                                            </h1>
+                                            </h2>
                                             <div className="flex flex-wrap items-center gap-3 text-l-medium text-w-neutral-1 mb-40p">
                                                 <span className="text-m-medium text-w-neutral-1">
                                                     {slide.description}

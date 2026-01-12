@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import Banner from '../components/Banner/Banner'
 import Categories from '../components/Categories/Categories'
 import Products from '../components/Products/Products'
+import HomeSeoSection from '../components/HomeSeoSection';
+import FaqSection from '../components/FaqSection';
 
 
 interface Props { }
@@ -19,6 +21,7 @@ function Home(props: Props) {
             <Banner />
             <Categories />
             <Products />
+            <HomeSeoSection/>
             <div className="w-full max-w-3xl mx-auto my-8 px-4">
                 <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow-lg">
                     <iframe
@@ -32,6 +35,7 @@ function Home(props: Props) {
                     ></iframe>
                 </div>
             </div>
+            <FaqSection/>
         </>
     )
 }
