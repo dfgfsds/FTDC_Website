@@ -116,7 +116,7 @@ export default function HomeSeoSection() {
 
 
                         <p className="font-semibold text-gray-50">
-                            Visit our store or get in touch to build your next gaming machine with confidence.
+                            Visit our store or get in touch to build your next gaming machine with confidence
                         </p>
                     </div>
                 </div>
