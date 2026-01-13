@@ -13,9 +13,9 @@ export default function Newsletter() {
                         <h2 className="text-2xl md:text-4xl font-squares ">
                             Subscribe to our
                         </h2>
-                        <h1 className="text-4xl md:text-6xl mt-10 font-squares font-squares-thin">
+                        <h3 className="text-4xl md:text-6xl mt-10 font-squares font-squares-thin">
                             Newsletter
-                        </h1>
+                        </h3>
                     </div>
 
                     {/* Right Section (Image) */}
