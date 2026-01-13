@@ -6,9 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import banner1 from "../../assets/img/banner/heroBanner1.webp";
-import banner2 from "../../assets/img/banner/heroBanner2.webp";
-import banner3 from "../../assets/img/banner/heroBanner3.webp";
-import banner4 from "../../assets/img/banner/heroBanner1.webp";
+// import banner2 from "../../assets/img/banner/heroBanner2.webp";
+// import banner3 from "../../assets/img/banner/heroBanner3.webp";
+// import banner4 from "../../assets/img/banner/heroBanner1.webp";
 import { useNavigate } from "react-router-dom";
 interface SlideData {
     image: string;
@@ -17,10 +17,10 @@ interface SlideData {
 }
 
 const slides: SlideData[] = [
-    { image: banner1, title: "Game On. Gear Up.", description: "Leagues of Legends - US English" },
-    { image: banner2, title: "Unleash the Power of Play!", description: "Valorant - Global Version" },
-    { image: banner3, title: "Step Into the Battle!", description: "Call of Duty - Next Gen" },
-    { image: banner4, title: "Experience the Thrill!", description: "FIFA 2025 - Ultimate Edition" },
+    { image: banner1, title: "Gaming PC Shop in Chennai", description: "Custom Gaming PC Built for Performance" },
+    // { image: banner2, title: "Unleash the Power of Play!", description: "Valorant - Global Version" },
+    // { image: banner3, title: "Step Into the Battle!", description: "Call of Duty - Next Gen" },
+    // { image: banner4, title: "Experience the Thrill!", description: "FIFA 2025 - Ultimate Edition" },
 ];
 
 function Banner() {
@@ -57,12 +57,12 @@ function Banner() {
                                     />
                                     <div className="absolute inset-0 z-[2] mx-80p 3xl:pt-[125px] xxl:pt-28 xl:pt-25 md:pt-12 pt-8">
                                         <div className="max-w-[790px]">
-                                            <h2
-                                                className="font-squares hidden md:block display-120 text-3xl md:text-6xl lg:text-8xl stroked-text-1 line-clamp-2 mb-2 "
+                                            <h1
+                                                className="font-squares hidden md:block display-120 text-3xl md:text-7xl lg:text-8xl stroked-text-1 line-clamp-2 mb-2 "
                                                 data-text={slide.title}
                                             >
                                                 {slide.title}
-                                            </h2>
+                                            </h1>
                                             <h2
                                                 className="font-squares md:hidden display-120 text-3xl md:text-6xl lg:text-7xl  line-clamp-2 mb-2 "
                                             >
@@ -85,7 +85,7 @@ function Banner() {
                     </Swiper>
 
                     {/* Thumbnail Swiper */}
-                    <div className="md:absolute lg:right-20 md:right-12 lg:bottom-15 md:bottom-12 z-[2] overflow-hidden pt-5 flex justify-end">
+                    {/* <div className="md:absolute lg:right-20 md:right-12 lg:bottom-15 md:bottom-12 z-[2] overflow-hidden pt-5 flex justify-end">
                         <Swiper modules={[Navigation]} slidesPerView={3} spaceBetween={10} loop={true} className="thumbs-gallery xxl:w-[572px] lg:w-[400px] md:w-[380px] xsm:w-[300px] w-full h-fit">
                             {slides.map((slide, index) => (
                                 <SwiperSlide key={index} onClick={() => mainSwiper?.slideTo(index)}>
@@ -99,7 +99,7 @@ function Banner() {
                                 </SwiperSlide>
                             ))}
                         </Swiper>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>
