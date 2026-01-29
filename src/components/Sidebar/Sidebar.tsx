@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
-import cat1 from "../../assets/img/cat/catImg1.jpg";
-import cat2 from "../../assets/img/cat/catImg2.jpg";
-import cat3 from "../../assets/img/cat/catImg3.jpg";
-import cat4 from "../../assets/img/cat/catImg4.jpg";
-import cat5 from "../../assets/img/cat/catImg5.jpg";
-import cat6 from "../../assets/img/cat/catImg6.jpg";
+import cat1 from "../../assets/img/web/catImg1-Bade92WF.webp";
+import cat2 from "../../assets/img/web/catImg2-CrJaHhGc.webp";
+import cat3 from "../../assets/img/web/catImg3-DXJXYjSs.webp";
+import cat4 from "../../assets/img/web/catImg4-Bt8Y3_fR.webp";
+import cat5 from "../../assets/img/web/catImg5-CXeU4904.webp";
+import cat6 from "../../assets/img/web/catImg6-BadMMydU.webp";
 import { useNavigate } from "react-router-dom";
 import { useCategoryContext } from "../../context/CategotyContext";
 
