@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Youtube, Linkedin, Twitter } from "lucide-react";
 import logo from "../../assets/img/logo/logo.png"
+import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -87,9 +88,9 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-white space-y-4 md:space-y-0">
                 {/* Left side */}
                 <div className="text-center md:text-left space-y-1">
-                    <p>Copyright © 2025</p>
+                    <p>Copyright © {new Date().getFullYear()}</p>
                     <p className="flex">
-                        Designed By <span className="text-orange-500 font-semibold ml-2">FTDS</span>
+                        Designed By <Link to="www.ftdigitalsolutions.in" target="_blank" className="text-orange-500 font-semibold ml-2">FT Digital Solutions</Link>
                     </p>
                 </div>
 
